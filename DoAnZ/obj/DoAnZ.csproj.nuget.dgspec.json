@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Desktop\\edit2\\DoAnZ\\DoAnZ.csproj": {}
+    "C:\\Users\\se7en\\OneDrive\\Desktop\\github\\DACS\\DoAnZ\\DoAnZ.csproj": {}
   },
   "projects": {
-    "D:\\Desktop\\edit2\\DoAnZ\\DoAnZ.csproj": {
+    "C:\\Users\\se7en\\OneDrive\\Desktop\\github\\DACS\\DoAnZ\\DoAnZ.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desktop\\edit2\\DoAnZ\\DoAnZ.csproj",
+        "projectUniqueName": "C:\\Users\\se7en\\OneDrive\\Desktop\\github\\DACS\\DoAnZ\\DoAnZ.csproj",
         "projectName": "DoAnZ",
-        "projectPath": "D:\\Desktop\\edit2\\DoAnZ\\DoAnZ.csproj",
+        "projectPath": "C:\\Users\\se7en\\OneDrive\\Desktop\\github\\DACS\\DoAnZ\\DoAnZ.csproj",
         "packagesPath": "C:\\Users\\se7en\\.nuget\\packages\\",
-        "outputPath": "D:\\Desktop\\edit2\\DoAnZ\\obj\\",
+        "outputPath": "C:\\Users\\se7en\\OneDrive\\Desktop\\github\\DACS\\DoAnZ\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\se7en\\AppData\\Roaming\\NuGet\\NuGet.Config",

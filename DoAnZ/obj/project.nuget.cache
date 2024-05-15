@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iZQzl8HWvIjkIMCgHFFNdTjdgd+eo1oq4mryiyIAyo+R/BZOxVeD/5eoCyLy5OjVnvwJhX7EV7VzpI2e2re/ug==",
+  "dgSpecHash": "zUwBcf93k1l1HJWq5yAewgd91xfd8T3ZVdvYo7iDVyIaXeChpZyUjzP7omy+HdbZvNKLVRWF7AZWVAnkZklwCw==",
   "success": true,
-  "projectFilePath": "D:\\Desktop\\edit2\\DoAnZ\\DoAnZ.csproj",
+  "projectFilePath": "C:\\Users\\se7en\\OneDrive\\Desktop\\github\\DACS\\DoAnZ\\DoAnZ.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\se7en\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\se7en\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

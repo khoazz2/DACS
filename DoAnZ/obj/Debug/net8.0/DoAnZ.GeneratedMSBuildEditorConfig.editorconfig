@@ -17,187 +17,187 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DoAnZ
 build_property.RootNamespace = DoAnZ
-build_property.ProjectDir = D:\Desktop\edit2\DoAnZ\
+build_property.ProjectDir = C:\Users\se7en\OneDrive\Desktop\github\DACS\DoAnZ\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Desktop\edit2\DoAnZ
+build_property.MSBuildProjectDirectory = C:\Users\se7en\OneDrive\Desktop\github\DACS\DoAnZ
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Desktop/edit2/DoAnZ/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/Users/se7en/OneDrive/Desktop/github/DACS/DoAnZ/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desktop/edit2/DoAnZ/Areas/Identity/Pages/Account/Logout.cshtml]
+[C:/Users/se7en/OneDrive/Desktop/github/DACS/DoAnZ/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desktop/edit2/DoAnZ/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/Users/se7en/OneDrive/Desktop/github/DACS/DoAnZ/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desktop/edit2/DoAnZ/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/Users/se7en/OneDrive/Desktop/github/DACS/DoAnZ/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desktop/edit2/DoAnZ/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Users/se7en/OneDrive/Desktop/github/DACS/DoAnZ/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desktop/edit2/DoAnZ/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/Users/se7en/OneDrive/Desktop/github/DACS/DoAnZ/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desktop/edit2/DoAnZ/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/se7en/OneDrive/Desktop/github/DACS/DoAnZ/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desktop/edit2/DoAnZ/Views/Admin/Add.cshtml]
+[C:/Users/se7en/OneDrive/Desktop/github/DACS/DoAnZ/Views/Admin/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desktop/edit2/DoAnZ/Views/Admin/ChiTietDonHang.cshtml]
+[C:/Users/se7en/OneDrive/Desktop/github/DACS/DoAnZ/Views/Admin/ChiTietDonHang.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2hpVGlldERvbkhhbmcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desktop/edit2/DoAnZ/Views/Admin/Delete.cshtml]
+[C:/Users/se7en/OneDrive/Desktop/github/DACS/DoAnZ/Views/Admin/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desktop/edit2/DoAnZ/Views/Admin/Display.cshtml]
+[C:/Users/se7en/OneDrive/Desktop/github/DACS/DoAnZ/Views/Admin/Display.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGlzcGxheS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desktop/edit2/DoAnZ/Views/Admin/DSDH.cshtml]
+[C:/Users/se7en/OneDrive/Desktop/github/DACS/DoAnZ/Views/Admin/DSDH.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRFNESC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desktop/edit2/DoAnZ/Views/Admin/DSSP.cshtml]
+[C:/Users/se7en/OneDrive/Desktop/github/DACS/DoAnZ/Views/Admin/DSSP.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRFNTUC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desktop/edit2/DoAnZ/Views/Admin/Index.cshtml]
+[C:/Users/se7en/OneDrive/Desktop/github/DACS/DoAnZ/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desktop/edit2/DoAnZ/Views/Admin/ProductList.cshtml]
+[C:/Users/se7en/OneDrive/Desktop/github/DACS/DoAnZ/Views/Admin/ProductList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUHJvZHVjdExpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desktop/edit2/DoAnZ/Views/Admin/Update.cshtml]
+[C:/Users/se7en/OneDrive/Desktop/github/DACS/DoAnZ/Views/Admin/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desktop/edit2/DoAnZ/Views/Home/contact.cshtml]
+[C:/Users/se7en/OneDrive/Desktop/github/DACS/DoAnZ/Views/Home/contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxjb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desktop/edit2/DoAnZ/Views/Home/Details.cshtml]
+[C:/Users/se7en/OneDrive/Desktop/github/DACS/DoAnZ/Views/Home/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desktop/edit2/DoAnZ/Views/Home/Fruits.cshtml]
+[C:/Users/se7en/OneDrive/Desktop/github/DACS/DoAnZ/Views/Home/Fruits.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGcnVpdHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desktop/edit2/DoAnZ/Views/Home/HaiSan.cshtml]
+[C:/Users/se7en/OneDrive/Desktop/github/DACS/DoAnZ/Views/Home/HaiSan.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIYWlTYW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desktop/edit2/DoAnZ/Views/Home/Hethongsieuthi.cshtml]
+[C:/Users/se7en/OneDrive/Desktop/github/DACS/DoAnZ/Views/Home/Hethongsieuthi.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIZXRob25nc2lldXRoaS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desktop/edit2/DoAnZ/Views/Home/Index.cshtml]
+[C:/Users/se7en/OneDrive/Desktop/github/DACS/DoAnZ/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desktop/edit2/DoAnZ/Views/Home/IndexCart.cshtml]
+[C:/Users/se7en/OneDrive/Desktop/github/DACS/DoAnZ/Views/Home/IndexCart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleENhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desktop/edit2/DoAnZ/Views/Home/Meat.cshtml]
+[C:/Users/se7en/OneDrive/Desktop/github/DACS/DoAnZ/Views/Home/Meat.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNZWF0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desktop/edit2/DoAnZ/Views/Home/NguyenChat.cshtml]
+[C:/Users/se7en/OneDrive/Desktop/github/DACS/DoAnZ/Views/Home/NguyenChat.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOZ3V5ZW5DaGF0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desktop/edit2/DoAnZ/Views/Home/Search.cshtml]
+[C:/Users/se7en/OneDrive/Desktop/github/DACS/DoAnZ/Views/Home/Search.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWFyY2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desktop/edit2/DoAnZ/Views/Home/Shop.cshtml]
+[C:/Users/se7en/OneDrive/Desktop/github/DACS/DoAnZ/Views/Home/Shop.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG9wLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desktop/edit2/DoAnZ/Views/Home/Vegetables.cshtml]
+[C:/Users/se7en/OneDrive/Desktop/github/DACS/DoAnZ/Views/Home/Vegetables.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWZWdldGFibGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desktop/edit2/DoAnZ/Views/Product/Add.cshtml]
+[C:/Users/se7en/OneDrive/Desktop/github/DACS/DoAnZ/Views/Product/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desktop/edit2/DoAnZ/Views/Product/Delete.cshtml]
+[C:/Users/se7en/OneDrive/Desktop/github/DACS/DoAnZ/Views/Product/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desktop/edit2/DoAnZ/Views/Product/Display.cshtml]
+[C:/Users/se7en/OneDrive/Desktop/github/DACS/DoAnZ/Views/Product/Display.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEaXNwbGF5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desktop/edit2/DoAnZ/Views/Product/Index.cshtml]
+[C:/Users/se7en/OneDrive/Desktop/github/DACS/DoAnZ/Views/Product/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desktop/edit2/DoAnZ/Views/Product/Tao.cshtml]
+[C:/Users/se7en/OneDrive/Desktop/github/DACS/DoAnZ/Views/Product/Tao.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxUYW8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desktop/edit2/DoAnZ/Views/Product/Update.cshtml]
+[C:/Users/se7en/OneDrive/Desktop/github/DACS/DoAnZ/Views/Product/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desktop/edit2/DoAnZ/Views/Shared/Error.cshtml]
+[C:/Users/se7en/OneDrive/Desktop/github/DACS/DoAnZ/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desktop/edit2/DoAnZ/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/se7en/OneDrive/Desktop/github/DACS/DoAnZ/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desktop/edit2/DoAnZ/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/se7en/OneDrive/Desktop/github/DACS/DoAnZ/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desktop/edit2/DoAnZ/Views/ShoppingCart/Checkout.cshtml]
+[C:/Users/se7en/OneDrive/Desktop/github/DACS/DoAnZ/Views/ShoppingCart/Checkout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdDYXJ0XENoZWNrb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desktop/edit2/DoAnZ/Views/ShoppingCart/Index.cshtml]
+[C:/Users/se7en/OneDrive/Desktop/github/DACS/DoAnZ/Views/ShoppingCart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdDYXJ0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desktop/edit2/DoAnZ/Views/ShoppingCart/OrderCompleted.cshtml]
+[C:/Users/se7en/OneDrive/Desktop/github/DACS/DoAnZ/Views/ShoppingCart/OrderCompleted.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdDYXJ0XE9yZGVyQ29tcGxldGVkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desktop/edit2/DoAnZ/Views/ShoppingCart/UpdateCartItem.cshtml]
+[C:/Users/se7en/OneDrive/Desktop/github/DACS/DoAnZ/Views/ShoppingCart/UpdateCartItem.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdDYXJ0XFVwZGF0ZUNhcnRJdGVtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desktop/edit2/DoAnZ/Views/_ViewImports.cshtml]
+[C:/Users/se7en/OneDrive/Desktop/github/DACS/DoAnZ/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desktop/edit2/DoAnZ/Views/_ViewStart.cshtml]
+[C:/Users/se7en/OneDrive/Desktop/github/DACS/DoAnZ/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desktop/edit2/DoAnZ/Views/Shared/_Layout.cshtml]
+[C:/Users/se7en/OneDrive/Desktop/github/DACS/DoAnZ/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-zpdeo7ez3k

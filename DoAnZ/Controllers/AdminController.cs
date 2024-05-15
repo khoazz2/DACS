@@ -77,9 +77,7 @@ namespace DoAnZ.Controllers
                 return NotFound();
             }
 
-            // Thiết lập trạng thái mới cho đơn hàng
-            Enum.TryParse(status, out OrderStatus newStatus);
-            order.Status = newStatus;
+           
 
             // Lưu thay đổi vào cơ sở dữ liệu
             await _context.SaveChangesAsync();
