@@ -1,0 +1,50 @@
+﻿@model IEnumerable<DoAnZ.Models.Product>
+@using Microsoft.AspNetCore.Mvc.Rendering
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh sách sản phẩm</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom CSS */
+        .product-card {
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+            .product-card img {
+                max-width: 100%;
+                height: auto;
+            }
+
+            .product-card .card-body {
+                padding: 15px;
+            }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="mb-4">Danh sách sản phẩm</h2>
+        <div class="row">
+            @foreach (var product in Model)
+            {
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="product-card">
+                        <img src="@Url.Content("~/images/" + product.ImageUrl)" class="card-img-top" alt="Product Image">
+                        <div class="card-body">
+                            <h5 class="card-title">@product.Name</h5>
+                            <p class="card-text">Giá: @product.Price</p>
+                            <p class="card-text">@product.Description</p>
+                            <p class="card-text">Loại: @product.Category?.Name</p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</body>
+</html>

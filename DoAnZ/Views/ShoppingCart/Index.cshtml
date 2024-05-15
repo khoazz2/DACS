@@ -1,0 +1,104 @@
+﻿@model ShoppingCart
+
+<h2>Your Cart</h2>
+
+<section class="h-100 gradient-custom">
+    <div class="container py-5">
+        <div class="row d-flex justify-content-center my-4">
+            <div class="col-md-8">
+                <div class="card mb-4">
+                    <div class="card-header py-3">
+                        <h5 class="mb-0">Your Cart</h5>
+                    </div>
+                    <div class="card-body">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Hình ảnh</th>
+                                    <th>Sản phẩm</th>
+                                    <th>Số lượng</th>
+                                    <th>Giá</th>
+                                    <th>Tổng cộng</th>
+                                    <th>Hành động</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model.Items)
+                                {
+                                    <tr>
+                                        <td>@item.Name</td>
+                                        <td><img src="@Url.Content("~/images/" + item.ImageUrl)" alt="@item.Name" style="max-height: 100px;" /></td>
+                                        <td>
+                                            <form asp-action="UpdateCartItem" asp-route-productId="@item.ProductId" method="post">
+                                                <input type="number" name="quantity" value="@item.Quantity" />
+                                                <button type="submit">Update</button>
+                                            </form>
+                                        </td>
+                                        <td>@item.Price.ToString("#,##0")</td>
+                                        <td>@Model.Items.Sum(i => i.Price * i.Quantity).ToString("#,##0")</td>
+                                        <td>
+                                            <a asp-action="RemoveFromCart" asp-route-productId="@item.ProductId">Remove</a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="card mb-4">
+                    @* <div class="card-body"> *@
+                    @*   <p><strong>Expected shipping delivery</strong></p> *@
+                    @*   <p class="mb-0">12.10.2020 - 14.10.2020</p> *@
+                    @* </div> *@
+                </div>
+                <div class="card mb-4 mb-lg-0">
+                    <div class="card-body">
+                        <p><strong>We accept</strong></p>
+                        <img class="me-2" width="45px"
+                             src="https://mdbcdn.b-cdn.net/wp-content/plugins/woocommerce-gateway-stripe/assets/images/visa.svg"
+                             alt="Visa" />
+                        <img class="me-2" width="45px"
+                             src="https://mdbcdn.b-cdn.net/wp-content/plugins/woocommerce-gateway-stripe/assets/images/amex.svg"
+                             alt="American Express" />
+                        <img class="me-2" width="45px"
+                             src="https://mdbcdn.b-cdn.net/wp-content/plugins/woocommerce-gateway-stripe/assets/images/mastercard.svg"
+                             alt="Mastercard" />
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-header py-3">
+                        <h5 class="mb-0">Bản Hàng</h5>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 pb-0">
+                                Tiền Sản Phẩm
+                                <span><strong>@Model.Items.Sum(i => i.Price * i.Quantity).ToString("#,##0")</strong></span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                            </li>
+                            <!--      <li class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 mb-3">
+                           <div>
+                                    <strong>Tổng tất cả </strong>
+                                    <strong>
+                                        <p class="mb-0">(đã gồm VAT)</p>
+                                    </strong>
+                                </div>
+                                <span>
+                                    <strong>
+                                        @((Model.Items.Sum(i => i.Price * i.Quantity) * 1.1M).ToString("C"))
+                                    </strong>
+                                </span>
+                            </li> -->
+                        </ul>
+                        <a asp-action="Checkout" class="btn btn-primary btn-lg btn-block">Go to checkout</a>
+                        <a href="/" class="btn btn-secondary btn-lg btn-block">Back</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

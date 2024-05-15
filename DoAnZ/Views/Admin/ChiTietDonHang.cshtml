@@ -1,0 +1,28 @@
+﻿@model DoAnZ.Models.Order
+
+<h2>Chi tiết đơn hàng</h2>
+
+<div>
+    <p><strong>Mã đơn hàng:</strong> @Model.Id</p>
+    <p><strong>Ngày đặt hàng:</strong> @Model.OrderDate.ToShortDateString()</p>
+    <p><strong>Tổng giá trị:</strong> @Model.TotalPrice.ToString("C")</p>
+    <p><strong>Trạng thái:</strong> @Model.Status.ToString()</p>
+</div>
+
+<hr />
+
+<form asp-controller="Admin" asp-action="ChangeOrderStatus" method="post">
+    <input type="hidden" name="orderId" value="@Model.Id" />
+
+    <div class="form-group">
+        <label for="status">Chọn trạng thái mới:</label>
+        <select name="status" class="form-control">
+            <option value="Pending">Chờ xử lý</option>
+            <option value="Confirmed">Đã xác nhận</option>
+            <option value="Cancelled">Đã hủy</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Lưu thay đổi</button>
+</form>
+

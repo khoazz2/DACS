@@ -1,0 +1,35 @@
+﻿@model DoAnZ.Models.Product
+
+@{
+    ViewData["Title"] = "Hiển thị";
+    int numOfQuantity = 1;
+}
+
+<div class="container py-5">
+    <h2>@Model.Name</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <img src="@Url.Content("~/images/" + Model.ImageUrl)" class="card-img-top product-image img-fluid rounded" alt="Hình ảnh sản phẩm" style="max-height: 300px;">
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <span class="product-price text-muted">Giá:</span>
+                        <p class="text-primary mb-0">@Model.Price.ToString("#,##0")<sup>vnd</sup></p>
+                    </div>
+                    <h5 class="card-title product-title">@Model.Name</h5>
+                    <p class="card-text">@Model.Description</p>
+                    <form id="addToCartForm-@Model.Id" asp-controller="ShoppingCart" asp-action="AddToCart" method="post">
+                        <input type="hidden" name="productId" value="@Model.Id" />
+                        <input type="hidden" name="quantity" value="1" /><!-- Số lượng mặc định -->
+                        <button type="submit" class="btn btn-outline-dark btn-lg btn-block mb-3">
+                            <i class="bi-cart-fill me-1"></i> Thêm vào giỏ hàng
+                        </button>
+                        <a asp-action="Index" class="btn btn-secondary btn-lg btn-block">Quay lại danh sách</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

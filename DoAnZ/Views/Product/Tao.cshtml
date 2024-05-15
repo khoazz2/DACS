@@ -1,0 +1,107 @@
+﻿@model IEnumerable<DoAnZ.Models.Product>
+@{
+    ViewData["Title"] = "Home Page";
+    int numOfQuantity = 1;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <!-- Link Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom CSS styles */
+        .container {
+            padding: 20px;
+        }
+
+        .product {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .product-item {
+            width: 30%;
+            background-color: #fff;
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+            .product-item img {
+                width: 100%;
+                border-radius: 5px;
+                margin-bottom: 10px;
+            }
+
+            .product-item h4 {
+                margin: 0 0 10px;
+                font-size: 18px;
+            }
+
+            .product-item p {
+                margin: 0 0 15px;
+                font-size: 14px;
+            }
+
+            .product-item .price {
+                color: #007bff;
+                font-weight: bold;
+                font-size: 16px;
+            }
+
+            .product-item .description {
+                color: #6c757d;
+                font-size: 14px;
+            }
+
+            .product-item button {
+                background-color: #007bff;
+                color: #fff;
+                border: none;
+                padding: 10px 15px;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+            }
+
+                .product-item button:hover {
+                    background-color: #0056b3;
+                }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="product row">
+            @foreach (var product in Model)
+            {
+                @if (product.Name == "Táo")
+                {
+                    <div class="product-item col-md-4">
+                        <img src="@Url.Content("~/images/" + product.ImageUrl)" alt="Product Image">
+                        <h4>@product.Name</h4>
+                        <p class="description">@product.Description</p>
+                        <p class="price">@product.Price.ToString("#,##0") Vnđ</p>
+                       @* <p>Category: @product.Category.Name</p> *@
+                        <form asp-controller="ShoppingCart" asp-action="AddToCart" method="post">
+                            <input type="hidden" name="productId" value="@product.Id">
+                            <input type="hidden" name="quantity" value="@numOfQuantity">
+                            <button type="submit" class="btn btn-primary">Add to Cart</button>
+                            <a href="/" class="btn btn-secondary">Back</a>
+                        </form>
+                       
+                    </div>
+                }
+            }
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
