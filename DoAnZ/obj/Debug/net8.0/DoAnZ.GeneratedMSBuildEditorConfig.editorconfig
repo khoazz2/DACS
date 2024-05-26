@@ -162,11 +162,27 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+<<<<<<< HEAD
 [C:/Users/vaix/OneDrive/Tài liệu/GitHub/DACS/DoAnZ/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/vaix/OneDrive/Tài liệu/GitHub/DACS/DoAnZ/Views/Shared/_LoginPartial.cshtml]
+=======
+[C:/Users/se7en/OneDrive/Desktop/github/DACS/DoAnZ/Views/Shared/AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFkbWluTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/se7en/OneDrive/Desktop/github/DACS/DoAnZ/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/se7en/OneDrive/Desktop/github/DACS/DoAnZ/Views/Shared/_AdminPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/se7en/OneDrive/Desktop/github/DACS/DoAnZ/Views/Shared/_LoginPartial.cshtml]
+>>>>>>> 1f1ca19a68b704922fa99a75075bacb5c3b76261
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
