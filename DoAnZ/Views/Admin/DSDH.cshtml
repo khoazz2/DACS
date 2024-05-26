@@ -20,7 +20,7 @@
                 <td>@order.Id</td>
                 @* <td>@order.CustomerName</td> *@
                 <td>@order.OrderDate.ToShortDateString()</td>
-                <td>@order.TotalPrice.ToString("C")</td>
+                <td>@order.TotalPrice.ToString("#,##0")<sup>đồng</sup></td>
                 <td>@order.Status.ToString()</td>
                 <td><a asp-action="ChiTietDonHang" asp-route-id="@order.Id">Chi tiết</a></td>
             </tr>

@@ -8864,19 +8864,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\se7en\\.nuget\\packages\\": {}
+    "C:\\Users\\vaix\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\se7en\\OneDrive\\Desktop\\github\\DACS\\DoAnZ\\DoAnZ.csproj",
+      "projectUniqueName": "C:\\Users\\vaix\\OneDrive\\Tài liệu\\GitHub\\DACS\\DoAnZ\\DoAnZ.csproj",
       "projectName": "DoAnZ",
-      "projectPath": "C:\\Users\\se7en\\OneDrive\\Desktop\\github\\DACS\\DoAnZ\\DoAnZ.csproj",
-      "packagesPath": "C:\\Users\\se7en\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\se7en\\OneDrive\\Desktop\\github\\DACS\\DoAnZ\\obj\\",
+      "projectPath": "C:\\Users\\vaix\\OneDrive\\Tài liệu\\GitHub\\DACS\\DoAnZ\\DoAnZ.csproj",
+      "packagesPath": "C:\\Users\\vaix\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vaix\\OneDrive\\Tài liệu\\GitHub\\DACS\\DoAnZ\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\se7en\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\vaix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8896,11 +8901,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -8965,7 +8965,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

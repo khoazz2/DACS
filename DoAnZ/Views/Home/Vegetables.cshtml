@@ -278,11 +278,13 @@
                                             <span class="product-price text-muted">Price: </span>
                                             <p class="text-primary mb-0">@item.Price.ToString("#,##0")<sup>vnd</sup></p>
                                         </div>
-                                        <a href="#">
-                                            <button class="btn btn-outline-dark product-add-to-cart w-100">
+                                        <form id="addToCartForm-@item.Id" asp-controller="ShoppingCart" asp-action="AddToCart" method="post" class="mt-auto">
+                                            <input type="hidden" name="productId" value="@item.Id" />
+                                            <input type="hidden" name="quantity" value="1" /> <!-- Số lượng mặc định -->
+                                            <button type="submit" class="btn btn-outline-dark product-add-to-cart w-100">
                                                 <i class="bi-cart-fill me-1"></i> Add to Cart
                                             </button>
-                                        </a>
+                                        </form>
                                     </div>
                                 </div>
                             </div>
